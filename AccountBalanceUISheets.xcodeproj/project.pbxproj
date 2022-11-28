@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		795F95F02934E15A0014AA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F95EF2934E15A0014AA29 /* AppDelegate.swift */; };
 		795F95F22934E15A0014AA29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F95F12934E15A0014AA29 /* SceneDelegate.swift */; };
-		795F95F42934E15A0014AA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F95F32934E15A0014AA29 /* ViewController.swift */; };
 		795F95F72934E15A0014AA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795F95F52934E15A0014AA29 /* Main.storyboard */; };
 		795F95F92934E15B0014AA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795F95F82934E15B0014AA29 /* Assets.xcassets */; };
 		795F95FC2934E15B0014AA29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795F95FA2934E15B0014AA29 /* LaunchScreen.storyboard */; };
 		795F96072934E15B0014AA29 /* AccountBalanceUISheetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F96062934E15B0014AA29 /* AccountBalanceUISheetsTests.swift */; };
 		795F96112934E15B0014AA29 /* AccountBalanceUISheetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F96102934E15B0014AA29 /* AccountBalanceUISheetsUITests.swift */; };
 		795F96132934E15B0014AA29 /* AccountBalanceUISheetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F96122934E15B0014AA29 /* AccountBalanceUISheetsUITestsLaunchTests.swift */; };
+		795F96212934E3E00014AA29 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F96202934E3E00014AA29 /* AppManager.swift */; };
+		795F96232934E4010014AA29 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F96222934E4010014AA29 /* AppCoordinator.swift */; };
+		795F96272934E4450014AA29 /* AccountHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F96252934E4450014AA29 /* AccountHomeTableViewController.swift */; };
+		795F9631293509EB0014AA29 /* QuickTransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F962F293509EB0014AA29 /* QuickTransferViewController.swift */; };
+		795F9632293509EB0014AA29 /* QuickTransferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 795F9630293509EB0014AA29 /* QuickTransferViewController.xib */; };
+		795F9635293531900014AA29 /* AccountCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F9634293531900014AA29 /* AccountCardView.swift */; };
+		795F963829353E8F0014AA29 /* MakePaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F963729353E8F0014AA29 /* MakePaymentService.swift */; };
+		795F963B29354BDE0014AA29 /* AccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795F963A29354BDE0014AA29 /* AccountRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,6 @@
 		795F95EC2934E15A0014AA29 /* AccountBalanceUISheets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountBalanceUISheets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		795F95EF2934E15A0014AA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		795F95F12934E15A0014AA29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		795F95F32934E15A0014AA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		795F95F62934E15A0014AA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		795F95F82934E15B0014AA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		795F95FB2934E15B0014AA29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		795F960C2934E15B0014AA29 /* AccountBalanceUISheetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountBalanceUISheetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		795F96102934E15B0014AA29 /* AccountBalanceUISheetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceUISheetsUITests.swift; sourceTree = "<group>"; };
 		795F96122934E15B0014AA29 /* AccountBalanceUISheetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountBalanceUISheetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		795F96202934E3E00014AA29 /* AppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		795F96222934E4010014AA29 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		795F96252934E4450014AA29 /* AccountHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHomeTableViewController.swift; sourceTree = "<group>"; };
+		795F962F293509EB0014AA29 /* QuickTransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTransferViewController.swift; sourceTree = "<group>"; };
+		795F9630293509EB0014AA29 /* QuickTransferViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuickTransferViewController.xib; sourceTree = "<group>"; };
+		795F9634293531900014AA29 /* AccountCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCardView.swift; sourceTree = "<group>"; };
+		795F963729353E8F0014AA29 /* MakePaymentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakePaymentService.swift; sourceTree = "<group>"; };
+		795F963A29354BDE0014AA29 /* AccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,11 @@
 		795F95EE2934E15A0014AA29 /* AccountBalanceUISheets */ = {
 			isa = PBXGroup;
 			children = (
-				795F95EF2934E15A0014AA29 /* AppDelegate.swift */,
-				795F95F12934E15A0014AA29 /* SceneDelegate.swift */,
-				795F95F32934E15A0014AA29 /* ViewController.swift */,
-				795F95F52934E15A0014AA29 /* Main.storyboard */,
+				795F961F2934E1750014AA29 /* Shared */,
+				795F963929354BBD0014AA29 /* Repository */,
+				795F963629353E5D0014AA29 /* Services */,
+				795F9633293531790014AA29 /* Models */,
+				795F96242934E42B0014AA29 /* Features */,
 				795F95F82934E15B0014AA29 /* Assets.xcassets */,
 				795F95FA2934E15B0014AA29 /* LaunchScreen.storyboard */,
 				795F95FD2934E15B0014AA29 /* Info.plist */,
@@ -125,6 +140,68 @@
 				795F96122934E15B0014AA29 /* AccountBalanceUISheetsUITestsLaunchTests.swift */,
 			);
 			path = AccountBalanceUISheetsUITests;
+			sourceTree = "<group>";
+		};
+		795F961F2934E1750014AA29 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				795F95EF2934E15A0014AA29 /* AppDelegate.swift */,
+				795F95F12934E15A0014AA29 /* SceneDelegate.swift */,
+				795F96202934E3E00014AA29 /* AppManager.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		795F96242934E42B0014AA29 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				795F96222934E4010014AA29 /* AppCoordinator.swift */,
+				795F962D293506BE0014AA29 /* Home */,
+				795F962E293507230014AA29 /* QuickTransfer */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		795F962D293506BE0014AA29 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				795F96252934E4450014AA29 /* AccountHomeTableViewController.swift */,
+				795F95F52934E15A0014AA29 /* Main.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		795F962E293507230014AA29 /* QuickTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				795F962F293509EB0014AA29 /* QuickTransferViewController.swift */,
+				795F9630293509EB0014AA29 /* QuickTransferViewController.xib */,
+			);
+			path = QuickTransfer;
+			sourceTree = "<group>";
+		};
+		795F9633293531790014AA29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				795F9634293531900014AA29 /* AccountCardView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		795F963629353E5D0014AA29 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				795F963729353E8F0014AA29 /* MakePaymentService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		795F963929354BBD0014AA29 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				795F963A29354BDE0014AA29 /* AccountRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				795F95FC2934E15B0014AA29 /* LaunchScreen.storyboard in Resources */,
+				795F9632293509EB0014AA29 /* QuickTransferViewController.xib in Resources */,
 				795F95F92934E15B0014AA29 /* Assets.xcassets in Resources */,
 				795F95F72934E15A0014AA29 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +336,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				795F95F42934E15A0014AA29 /* ViewController.swift in Sources */,
+				795F963B29354BDE0014AA29 /* AccountRepository.swift in Sources */,
+				795F963829353E8F0014AA29 /* MakePaymentService.swift in Sources */,
 				795F95F02934E15A0014AA29 /* AppDelegate.swift in Sources */,
+				795F9631293509EB0014AA29 /* QuickTransferViewController.swift in Sources */,
+				795F96232934E4010014AA29 /* AppCoordinator.swift in Sources */,
+				795F96272934E4450014AA29 /* AccountHomeTableViewController.swift in Sources */,
 				795F95F22934E15A0014AA29 /* SceneDelegate.swift in Sources */,
+				795F9635293531900014AA29 /* AccountCardView.swift in Sources */,
+				795F96212934E3E00014AA29 /* AppManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
